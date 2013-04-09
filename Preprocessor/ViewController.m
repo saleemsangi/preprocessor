@@ -18,6 +18,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+#ifdef DEBUG
+    // Hide ad banners
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Debug" message:@"Check title" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+    [alert show];
+#else
+    // Show ad banners
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Release" message:@"Check title" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+    [alert show];
+#endif
+    
 }
 
 - (void)didReceiveMemoryWarning
