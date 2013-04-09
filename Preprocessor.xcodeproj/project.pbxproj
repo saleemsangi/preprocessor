@@ -18,7 +18,6 @@
 		0D38066617146AE300435703 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D38066517146AE300435703 /* Default-568h@2x.png */; };
 		0D38066917146AE300435703 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D38066717146AE300435703 /* MainStoryboard.storyboard */; };
 		0D38066C17146AE300435703 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D38066B17146AE300435703 /* ViewController.m */; };
-		0DBEEF58171478F000D99765 /* My_Applications.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEEF57171478F000D99765 /* My_Applications.mobileprovision */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +37,7 @@
 		0D38066817146AE300435703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0D38066A17146AE300435703 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0D38066B17146AE300435703 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0DBEEF57171478F000D99765 /* My_Applications.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = My_Applications.mobileprovision; sourceTree = "<group>"; };
+		0DBEEF5917147D2500D99765 /* saleemsangi.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = saleemsangi.mobileprovision; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +57,7 @@
 		0D38064317146AE300435703 = {
 			isa = PBXGroup;
 			children = (
-				0DBEEF57171478F000D99765 /* My_Applications.mobileprovision */,
+				0DBEEF5917147D2500D99765 /* saleemsangi.mobileprovision */,
 				0D38065517146AE300435703 /* Preprocessor */,
 				0D38064E17146AE300435703 /* Frameworks */,
 				0D38064D17146AE300435703 /* Products */,
@@ -166,7 +165,6 @@
 				0D38066417146AE300435703 /* Default@2x.png in Resources */,
 				0D38066617146AE300435703 /* Default-568h@2x.png in Resources */,
 				0D38066917146AE300435703 /* MainStoryboard.storyboard in Resources */,
-				0DBEEF58171478F000D99765 /* My_Applications.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
